@@ -1,15 +1,23 @@
 module.exports = {
   docs: {
     'Overview': [
-      'overview/dapr-overview',
-      {'Contributing': ['overview/contributing/contributing', 'overview/contributing/howto-template']}
+      'overview/dapr-home',
+      'overview/community',
+      {'Contributing': [
+        'overview/contributing/contributing',
+        'overview/contributing/howto-template']
+      },
+      'overview/faq',
     ],
-    'Getting Started': ['getting-started/install-dapr', 'getting-started/quickstart'],
+    'Getting Started': [
+      'getting-started/install-dapr',
+      'getting-started/quickstart'
+    ],
     'Concepts': [
-      'overview/building-blocks',
+      'concepts/building-blocks/building-blocks',
       'concepts/middleware/middleware',
+      'concepts/configuration/configuration',
       'concepts/security/security-overview',
-      'concepts/configuration/configuration'
     ],
     'Dapr Building Blocks': [
       'concepts/service-invocation/service-invocation',
@@ -27,10 +35,26 @@ module.exports = {
       ]},
       {'Secrets': ['concepts/secrets/secrets','concepts/secrets/component-secrets']},
     ],
-    'Hosting Dapr': ['concepts/hosting/hosting'],
+    'Platforms': [
+      'concepts/hosting/self-hosted',
+      'concepts/hosting/kubernetes',
+      'concepts/hosting/iot',
+    ],
     'How To Guides': [],
     'Best Practices': [],
-    'Reference': [],
+    'Reference': [
+      {'Dapr API': [
+        'reference/api/state_api',
+        'reference/api/service_invocation_api',
+        'reference/api/bindings_api',
+        'reference/api/pubsub_api',
+        'reference/api/actors_api',
+        'reference/api/health_api',
+        'reference/api/secrets_api',
+        'reference/api/error_codes'
+      ]},
+      'reference/specs/bindings/bindings'
+    ],
     'FAQ': [],
   },
 };

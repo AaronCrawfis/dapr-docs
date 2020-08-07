@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Documentation for the Dapr Project',
   url: 'https://dapr.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // Change back before publishing - AaronC
   favicon: 'img/favicon.ico',
   organizationName: 'dapr', // Usually your GitHub org/user name.
   projectName: 'dapr', // Usually your repo name.
@@ -89,7 +89,7 @@ module.exports = {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
           routeBasePath: '/',
-          homePageId: 'overview/dapr-overview',
+          homePageId: 'overview/dapr-home',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
