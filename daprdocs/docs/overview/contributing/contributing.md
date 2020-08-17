@@ -1,9 +1,7 @@
 ---
-title: Contributing to Dapr
+title: Contributing to Dapr Docs
 sidebar_label: How to Contribute
 ---
-
-# Contributing to Dapr documentation
 
 High quality documentation is a core tenant of the Dapr project. Some contribution guidelines are below.
 
@@ -21,7 +19,7 @@ High quality documentation is a core tenant of the Dapr project. Some contributi
 - Assume a new developer audience. Some obvious steps can seem hard. E.g. Now set an environment variable DAPR to a value X. It is better to give the reader the explicit command to do this, rather than having them figure this out.
 - Where possible give the reader links to next document/article for next steps or related topics (this can be relevant "how-to", samples for reference or concepts).
 
-# Contributing to `Concepts`
+## Contributing to Concepts
 
 - Ensure the reader can understand why they should care about this feature. What problems does it help them solve?
 - Ensure the doc references the spec for examples of using the API.
@@ -30,7 +28,7 @@ High quality documentation is a core tenant of the Dapr project. Some contributi
 - Provide a link to the spec in the [Reference](/reference) section.
 - Where possible reference a practical [How-To](/howto) doc.
 
-# Contributing to `How-Tos`
+## Contributing to How-Tos
 
 See [this template](./howto-template.md) for `How To` articles.
 
